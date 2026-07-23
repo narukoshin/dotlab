@@ -1,0 +1,27 @@
+[package]
+name = "dotlab"
+version = "1.1.0"
+edition = "2024"
+rust-version = "1.85"
+description = "Transactional dotfile profiles and guarded Btrfs experiment slots"
+license = "MIT"
+
+[dependencies]
+anyhow = "1.0"
+clap = { version = "4.5", features = ["derive"] }
+fs2 = "0.4"
+hex = "0.4"
+libc = "0.2"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+sha2 = "0.10"
+toml = "0.9"
+walkdir = "2.5"
+
+[dev-dependencies]
+tempfile = "3.20"
+
+[profile.release]
+codegen-units = 1
+lto = false
+strip = true
