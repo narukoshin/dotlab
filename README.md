@@ -15,24 +15,14 @@
   <img alt="AI powered" src="https://img.shields.io/badge/AI-POWERED-f9e2af?style=flat-square">
 </p>
 
-<p align="center">
-  <sub>⚔️ README voice: Eris Greyrat fire × Camila the Imp mischief 😈</sub>
-</p>
-
 > [!CAUTION]
-> **Script is powered by AI and I do not take responsibility of it breaking the machine as it was only for experimental use.**
+> **Dotlab was developed with AI assistance (ChatGPT-Chan) and is provided as experimental software without warranty.**
 >
-> It can touch home configuration, Pacman packages, Btrfs snapshots, GRUB
-> entries, and UKI files. Back up anything important, inspect the code, and use
-> it entirely at your own risk.
->
-> “AI-powered” describes how the project was developed. Dotlab does not embed
-> an AI model, AI assistant, telemetry client, or AI service at runtime.
->
-> Read that twice, idiot! Cute badges are not armor. I will guard every escape
-> route I can, but the little imp is still not accepting your repair invoice.
-> `(¬‿¬)`
-
+> It performs high-risk system operations and may modify home configuration, Pacman packages, Btrfs snapshots, GRUB entries, and UKI files. A bug, interrupted operation, unsupported system layout, or incorrect configuration could cause data loss or leave the machine unbootable.
+> 
+> Back up anything important, verify that your system matches the documented requirements, inspect the code, and test recovery procedures before relying on it. You use Dotlab entirely at your own risk.
+> 
+> "AI-assisted" describes how the project was developed. Dotlab does not embed an AI model, assistant, telemetry client, or external AI service at runtime.
 ---
 
 ## What Dotlab is
