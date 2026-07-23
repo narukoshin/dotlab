@@ -1,0 +1,13 @@
+# Disallow everything
+*
+
+# Allow list
+!.gitignore
+!LICENSE
+!src/
+!README.md
+!Cargo.lock
+!Cargo.toml
+!install.sh
+!tests/
+!TESTING.md
